@@ -1,0 +1,117 @@
+h1 {
+  font-size: 66px;
+  color: #FF5964;
+  font-family: Sue Ellen Francisco;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#meetBarko {
+  font-size: 66px;
+  color: #FF5964;
+  font-family: Sue Ellen Francisco;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+button {
+  font-weight: lighter;
+  font-size: 30px;
+  color: #00635D;
+  background-color: white;
+  font-family: Amatic SC;
+  margin-top: 2px;
+  margin-bottom: 6px;
+  text-align: center;
+  border-radius: 15%;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #ededed;
+  color: #00b1a7;
+}
+
+h3 {
+  font-weight: lighter;
+  font-size: 30px;
+  color: #00635D;
+  font-family: Amatic SC;
+  margin-top: 2px;
+  margin-bottom: 6px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: Montserrat;
+}
+
+body {
+  background-color: #F5C396;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+a {
+  font-family: Montserrat;
+  color: #35A7FF;
+}
+
+li {
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: Montserrat;
+}
+
+ul {
+  margin-top: 2px;
+}
+
+#topSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+#threeColumns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 20px;
+  visibility: hidden;
+}
+
+#hello {
+  border-radius: 15%;
+  width: 30%;
+  height: 30%;
+}
+
+.icon {
+  border-radius: 20%;
+}
+
+.listItemBold {
+  font-weight: 700;
+}
+
+#columnZero {
+  width: 400px;
+}
+
+#columnOne {
+  width: 400px;
+}
+
+#columnTwo {
+  width: 400px;
+}
